@@ -13,4 +13,4 @@ Este pacote entrega layout (Liquid/BS5), páginas, site settings Web API, CSVs d
 8) Teste /dashboard (mock → dados reais quando `po_desafio` existir e permissões estiverem OK)
 
 ## Dica
-Para ficar idêntico ao protótipo, troque no `_react-host` para apontar para `/build/assets/index-XXXX.css/js` do seu bundle.
+troque no `_react-host` para apontar para `/build/assets/index-XXXX.css/js` do seu bundle.
