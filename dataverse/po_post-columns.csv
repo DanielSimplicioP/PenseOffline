@@ -1,0 +1,6 @@
+Display Name,Logical Name,Data Type,Required
+Comunidade,po_comunidadeid,Lookup(po_comunidade),Required
+Autor,po_autorid,Lookup(contact),Required
+Titulo,po_titulo,Text,Required
+Conteudo,po_conteudo,Multiline Text,Optional
+Data,po_data,Date and Time,Optional

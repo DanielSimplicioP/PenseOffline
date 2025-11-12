@@ -1,0 +1,13 @@
+<script>
+  async function getCsrfToken(){
+    try{const r=await fetch('/_services/auth/token',{credentials:'same-origin'});if(r.ok){const j=await r.json();return j?.access_token}}catch(e){}
+    const h=document.querySelector('input[name="__RequestVerificationToken"]');return h?h.value:'';
+  }
+  async function ppFetch(path,opt={}){
+    const t=await getCsrfToken();
+    const headers={'__RequestVerificationToken':t,'Content-Type':'application/json',...(opt.headers||{})};
+    return fetch(path,{credentials:'same-origin',...opt,headers});
+  }
+  window.PP={fetch:ppFetch,getToken:getCsrfToken};
+</script>
+<script src="/_content/bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,6 @@
+Display Name,Logical Name,Data Type,Required
+Contato,po_contactid,Lookup(contact),Required
+Desafio,po_desafioid,Lookup(po_desafio),Optional
+Tarefa,po_tarefaid,Lookup(po_tarefa),Optional
+Pontos,po_pontos,Whole Number,Optional
+Data,po_data,Date and Time,Optional

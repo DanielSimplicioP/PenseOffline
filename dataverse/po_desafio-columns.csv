@@ -1,0 +1,7 @@
+Display Name,Logical Name,Data Type,Required
+Nome,po_nome,Text,Required
+Descricao,po_descricao,Multiline Text,Optional
+Nivel,po_nivel,Whole Number,Optional
+Inicio,po_inicio,Date and Time,Optional
+Fim,po_fim,Date and Time,Optional
+Status,po_status,Choice,Optional

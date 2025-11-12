@@ -1,0 +1,8 @@
+Display Name,Logical Name,Data Type,Required
+Tarefa,po_tarefaid,Lookup(po_tarefa),Required
+Autor,po_autorid,Lookup(contact),Required
+Link,po_link,Text,Optional
+Arquivo,po_arquivo,File,Optional
+Data,po_data,Date and Time,Optional
+Status,po_status,Choice,Optional
+Nota,po_nota,Whole Number,Optional

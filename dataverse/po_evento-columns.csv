@@ -1,0 +1,6 @@
+Display Name,Logical Name,Data Type,Required
+Comunidade,po_comunidadeid,Lookup(po_comunidade),Required
+Titulo,po_titulo,Text,Required
+Data,po_data,Date and Time,Optional
+Local,po_local,Text,Optional
+Link,po_link,Text,Optional

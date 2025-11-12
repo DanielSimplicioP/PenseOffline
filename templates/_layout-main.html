@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <title>{{ page.title | escape }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  {% include 'styles' %}
+</head>
+<body class="d-flex flex-column min-vh-100 bg-light">
+  {% include 'header' %}
+  <main class="container py-4 flex-fill">
+    {% block main %}{% endblock %}
+  </main>
+  {% include 'footer' %}
+  {% include 'scripts' %}
+</body>
+</html>

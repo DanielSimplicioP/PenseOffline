@@ -1,0 +1,10 @@
+{
+  "Webapi/Enabled": "true",
+  "Webapi/EntityPermissionsEnabled": "true",
+  "Webapi/po_desafio/enabled": "true",
+  "Webapi/po_desafio/fields": "*",
+  "Webapi/po_envio/enabled": "true",
+  "Webapi/po_envio/fields": "po_tarefaid,po_link,po_arquivo,po_data,po_status,po_nota",
+  "Webapi/po_progresso/enabled": "true",
+  "Webapi/po_progresso/fields": "po_contactid,po_desafioid,po_tarefaid,po_pontos,po_data"
+}

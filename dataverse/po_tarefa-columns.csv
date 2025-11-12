@@ -1,0 +1,5 @@
+Display Name,Logical Name,Data Type,Required
+Desafio,po_desafioid,Lookup(po_desafio),Required
+Titulo,po_titulo,Text,Required
+Descricao,po_descricao,Multiline Text,Optional
+Pontos,po_pontos,Whole Number,Optional

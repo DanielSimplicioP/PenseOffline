@@ -1,0 +1,4 @@
+Display Name,Logical Name,Data Type,Required
+Nome,po_nome,Text,Required
+Descricao,po_descricao,Multiline Text,Optional
+Categoria,po_categoria,Text,Optional
